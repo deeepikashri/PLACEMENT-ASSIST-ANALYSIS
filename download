@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/temp_uploads/
+data/training_dataset.csv
+models/job_fit_model.joblib
+models/model_metadata.joblib
+.streamlit/
+.DS_Store
+.env

@@ -1,0 +1,24 @@
+streamlit>=1.32.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+PyMuPDF>=1.23.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+plotly>=5.18.0
+
+# Database (MySQL)
+PyMySQL>=1.1.0
+python-dotenv>=1.0.0
+
+# Live job postings API (integrations/job_board_api.py)
+requests>=2.31.0
+
+# Optional: only needed if you enable AI-enhanced resume extraction
+# (the "Enhance extraction with AI" checkbox on the Candidate page).
+# Uses Google's Gemini API, which has a free tier (no credit card
+# required) via https://aistudio.google.com/apikey. The app works fully
+# without this installed; it just falls back to the standard heuristic
+# extractor.
+google-generativeai>=0.8.0
